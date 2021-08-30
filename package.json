@@ -16,9 +16,12 @@
   },
   "devDependencies": {
     "@types/react": "latest",
+    "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "husky": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
     "typescript": "latest"
   },
   "packageManager": "yarn@latest"
