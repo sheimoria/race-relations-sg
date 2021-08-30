@@ -10,6 +10,9 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "latest",
+    "@tailwindcss/forms": "latest",
+    "@tailwindcss/typography": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"

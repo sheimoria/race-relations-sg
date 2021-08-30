@@ -293,6 +293,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/aspect-ratio@npm:latest":
+  version: 0.2.1
+  resolution: "@tailwindcss/aspect-ratio@npm:0.2.1"
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 8e2e76674fa00f64993fb96be23716b5d09e9313bcb1b4bd44e5d5d5bba5c267b140a580273fdd2fffbfad967a3870fb55a44a00cd943bfd316d690c2348b01b
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/forms@npm:latest":
+  version: 0.3.3
+  resolution: "@tailwindcss/forms@npm:0.3.3"
+  dependencies:
+    mini-svg-data-uri: ^1.2.3
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: 6618988aae3b4d536d18a3ca6bde482024c1e0b5350549d6b530c699688b2f3e56356744e639ba4dff96d3331fc4a46c3a2d6ef6b4a3391afc5d861ffdb3c20a
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/typography@npm:latest":
+  version: 0.4.1
+  resolution: "@tailwindcss/typography@npm:0.4.1"
+  dependencies:
+    lodash.castarray: ^4.4.0
+    lodash.isplainobject: ^4.0.6
+    lodash.merge: ^4.6.2
+    lodash.uniq: ^4.5.0
+  peerDependencies:
+    tailwindcss: ">=2.0.0"
+  checksum: d234509964f59389d00ccc0529b033a5aa670a93149a48520cd2088d102b894cc746146052ea844a926bbea4b16904f5f6b2874399511bf78d55631bdb88ac68
+  languageName: node
+  linkType: hard
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -3017,10 +3051,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: fca8c7047e0ae2738b0b2503fb00157ae0ff6d8a1b716f87ed715b22560e09de438c75b65e01a7e44ceb41c5b31dce2eb576e46db04beb9c699c498e03cbd00f
+  languageName: node
+  linkType: hard
+
 "lodash.clonedeep@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
   checksum: 92c46f094b064e876a23c97f57f81fbffd5d760bf2d8a1c61d85db6d1e488c66b0384c943abee4f6af7debf5ad4e4282e74ff83177c9e63d8ff081a4837c3489
+  languageName: node
+  linkType: hard
+
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: 29c6351f281e0d9a1d58f1a4c8f4400924b4c79f18dfc4613624d7d54784df07efaff97c1ff2659f3e085ecf4fff493300adc4837553104cef2634110b0d5337
   languageName: node
   linkType: hard
 
@@ -3049,6 +3097,13 @@ __metadata:
   version: 4.4.2
   resolution: "lodash.truncate@npm:4.4.2"
   checksum: b463d8a382cfb5f0e71c504dcb6f807a7bd379ff1ea216669aa42c52fc28c54e404bfbd96791aa09e6df0de2c1d7b8f1b7f4b1a61f324d38fe98bc535aeee4f5
+  languageName: node
+  linkType: hard
+
+"lodash.uniq@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.uniq@npm:4.5.0"
+  checksum: a4779b57a8d0f3c441af13d9afe7ecff22dd1b8ce1129849f71d9bbc8e8ee4e46dfb4b7c28f7ad3d67481edd6e51126e4e2a6ee276e25906d10f7140187c392d
   languageName: node
   linkType: hard
 
@@ -3155,6 +3210,15 @@ __metadata:
   bin:
     miller-rabin: bin/miller-rabin
   checksum: 00cd1ab838ac49b03f236cc32a14d29d7d28637a53096bf5c6246a032a37749c9bd9ce7360cbf55b41b89b7d649824949ff12bc8eee29ac77c6b38eada619ece
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.3.3
+  resolution: "mini-svg-data-uri@npm:1.3.3"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: 3a778132031f5472a46d9f8c012e420137412bef67997e0acedfc98dea7235c716c42fed57e80e8a5f0296fae2dab24282ebb3602dc341513745257434edc676
   languageName: node
   linkType: hard
 
@@ -4143,6 +4207,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "race-relations-sg@workspace:."
   dependencies:
+    "@tailwindcss/aspect-ratio": latest
+    "@tailwindcss/forms": latest
+    "@tailwindcss/typography": latest
     "@types/react": latest
     autoprefixer: latest
     eslint: latest
