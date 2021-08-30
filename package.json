@@ -16,6 +16,7 @@
     "@tailwindcss/forms": "latest",
     "@tailwindcss/typography": "latest",
     "next": "latest",
+    "next-themes": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
