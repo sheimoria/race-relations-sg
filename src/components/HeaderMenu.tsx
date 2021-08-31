@@ -24,7 +24,7 @@ const HeaderMenu = () => {
           >
             <Menu.Items
               static
-              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white rounded shadow focus:outline-none dark:bg-gray-800"
+              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white border border-gray-200 rounded-md dark:border-gray-800 focus:outline-none dark:bg-gray-900"
             >
               <Menu.Item>
                 {({ active }) => (
@@ -57,7 +57,7 @@ const HeaderMenu = () => {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <Link href="/websites">
+                  <Link href="/Websites">
                     <a className="menu-item">Websites</a>
                   </Link>
                 )}
