@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="sticky bottom-0 flex items-center justify-between gap-4 p-6 bg-white dark:bg-gray-900">
+    <footer>
       <a
         href="https://docs.google.com/spreadsheets/u/1/d/1VsoJpvVbRQjboAiCWU4gxO1TNzMTj0VFJ2I52BHlG1k/htmlview#"
         className="footer-link"
