@@ -15,6 +15,7 @@
     "@tailwindcss/aspect-ratio": "latest",
     "@tailwindcss/forms": "latest",
     "@tailwindcss/typography": "latest",
+    "googleapis": "latest",
     "next": "latest",
     "next-themes": "latest",
     "react": "latest",
