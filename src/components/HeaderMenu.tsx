@@ -24,28 +24,57 @@ const HeaderMenu = () => {
           >
             <Menu.Items
               static
-              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white rounded-md shadow focus:outline-none dark:bg-gray-800"
+              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white rounded shadow focus:outline-none dark:bg-gray-800"
             >
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Articles</p>}
+                {({ active }) => (
+                  <Link href="/articles">
+                    <a className="menu-item">Articles</a>
+                  </Link>
+                )}
+              </Menu.Item>
+
+              <Menu.Item>
+                {({ active }) => (
+                  <Link href="/books">
+                    <a className="menu-item">Books</a>
+                  </Link>
+                )}
               </Menu.Item>
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Books</p>}
+                {({ active }) => (
+                  <Link href="/videos">
+                    <a className="menu-item">Videos</a>
+                  </Link>
+                )}
               </Menu.Item>
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Videos</p>}
+                {({ active }) => (
+                  <Link href="/podcasts">
+                    <a className="menu-item">Podcasts</a>
+                  </Link>
+                )}
               </Menu.Item>
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Podcasts</p>}
+                {({ active }) => (
+                  <Link href="/websites">
+                    <a className="menu-item">Websites</a>
+                  </Link>
+                )}
               </Menu.Item>
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Websites</p>}
+                {({ active }) => (
+                  <Link href="/social media">
+                    <a className="menu-item">Social Media</a>
+                  </Link>
+                )}
               </Menu.Item>
               <Menu.Item>
-                {({ active }) => <p className="menu-item">Social Media</p>}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => <p className="menu-item">Others</p>}
+                {({ active }) => (
+                  <Link href="/others">
+                    <a className="menu-item">Others</a>
+                  </Link>
+                )}
               </Menu.Item>
             </Menu.Items>
           </Transition>
