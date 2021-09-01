@@ -18,7 +18,7 @@ const Category = ({ data }: { data: string[][] }) => {
           <article
             key={index}
             onClick={() => router.push(entry[2])}
-            className="flex flex-col gap-4 p-6 border border-gray-200 rounded-md cursor-pointer dark:border-gray-800"
+            className="flex flex-col gap-4 p-6 border border-gray-200 rounded-md cursor-pointer dark:border-gray-700"
           >
             <a className="font-medium text-gray-700 transition-colors hover:text-gray-800 dark:text-gray-200 dark:hover:text-gray-100">
               {entry[0]}

@@ -24,7 +24,7 @@ const HeaderMenu = () => {
           >
             <Menu.Items
               static
-              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white border border-gray-200 rounded-md dark:border-gray-800 focus:outline-none dark:bg-gray-900"
+              className="absolute right-0 z-10 flex flex-col py-3 truncate origin-top-right bg-white border border-gray-200 rounded-md dark:border-gray-700 focus:outline-none dark:bg-gray-900"
             >
               <Menu.Item>
                 {({ active }) => (
