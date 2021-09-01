@@ -5,14 +5,14 @@ const Footer = () => {
     <footer>
       <a
         href="https://docs.google.com/spreadsheets/u/1/d/1VsoJpvVbRQjboAiCWU4gxO1TNzMTj0VFJ2I52BHlG1k/htmlview#"
-        className="text-gray-400 transition-colors dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400"
+        className="text-sm text-gray-400 transition-colors dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400"
       >
-        Resource Bank by Adila
+        Compiled by Adila
       </a>
       <div className="flex items-center gap-4">
         <a
           href="https://www.instagram.com/sheimoria/?hl=en"
-          className="text-gray-400 transition-colors dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400"
+          className="text-sm text-gray-400 transition-colors dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400"
         >
           Website by Shem
         </a>
